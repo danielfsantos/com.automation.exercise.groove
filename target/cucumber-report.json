@@ -1,0 +1,63 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language:pt"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 341100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Realizar um cadastro valido",
+        "description": "",
+        "id": "realizar-um-cadastro-no-site-automation-pratice;realizar-um-cadastro-valido",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79337200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que eu esteja na home",
+            "match": {
+              "location": "TesteStep.homePage()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 35600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clicar em se cadastrar",
+            "match": {
+              "location": "TesteStep.ClickInRegistry()"
+            },
+            "keyword": "Quando "
+          }
+        ]
+      }
+    ],
+    "name": "Realizar um cadastro no site automation pratice",
+    "description": "\nEu como usuario desejo me cadastrar no site automation\n pratice e validar que o cadastro foi realizado com sucesso",
+    "id": "realizar-um-cadastro-no-site-automation-pratice",
+    "keyword": "Funcionalidade",
+    "uri": "ct01cadastro.feature"
+  }
+]
