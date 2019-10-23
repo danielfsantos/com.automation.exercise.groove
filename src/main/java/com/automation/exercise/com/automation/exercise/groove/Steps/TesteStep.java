@@ -7,8 +7,9 @@ public class TesteStep {
 
 	@Dado("^que eu esteja na home$")
 	public void homePage() throws Throwable {
-	   
-	  System.out.println("Passou aqui ?");
+	   //
+	 //ConfigServices config = new ConfigServices();
+	 //config.initializateSite();
 	}
 
 	@Quando("^clicar em se cadastrar$")
