@@ -9,6 +9,17 @@
     "line": 4,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 103600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest()"
+            }
+          }
+        ],
         "line": 9,
         "name": "Realizar um cadastro valido",
         "description": "",
@@ -18,7 +29,7 @@
         "steps": [
           {
             "result": {
-              "duration": 168119914,
+              "duration": 6945439000,
               "status": "passed"
             },
             "line": 10,
@@ -30,7 +41,7 @@
           },
           {
             "result": {
-              "duration": 209940,
+              "duration": 68100,
               "status": "passed"
             },
             "line": 11,
@@ -44,7 +55,7 @@
       }
     ],
     "name": "Realizar um cadastro no site automation pratice",
-    "description": "\r\nEu como usuario desejo me cadastrar no site automation\r\n pratice e validar que o cadastro foi realizado com sucesso",
+    "description": "\nEu como usuario desejo me cadastrar no site automation\n pratice e validar que o cadastro foi realizado com sucesso",
     "id": "realizar-um-cadastro-no-site-automation-pratice",
     "keyword": "Funcionalidade",
     "uri": "ct01cadastro.feature"
