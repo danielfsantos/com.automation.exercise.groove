@@ -12,7 +12,7 @@
         "before": [
           {
             "result": {
-              "duration": 103600,
+              "duration": 135761,
               "status": "passed"
             },
             "match": {
@@ -29,7 +29,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6945439000,
+              "duration": 9240167373,
               "status": "passed"
             },
             "line": 10,
@@ -41,21 +41,45 @@
           },
           {
             "result": {
-              "duration": 68100,
+              "duration": 1500245396,
               "status": "passed"
             },
             "line": 11,
-            "name": "clicar em se cadastrar",
+            "name": "clicar em se Sign in",
             "match": {
-              "location": "TesteStep.ClickInRegistry()"
+              "location": "TesteStep.openSignIn()"
             },
             "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 209384663,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "inserir um email Valido",
+            "match": {
+              "location": "TesteStep.inserir_um_email_Valido()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 209636591,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicar no botão create an account",
+            "match": {
+              "location": "TesteStep.clicar_no_botão_create_an_account()"
+            },
+            "keyword": "Então "
           }
         ]
       }
     ],
     "name": "Realizar um cadastro no site automation pratice",
-    "description": "\nEu como usuario desejo me cadastrar no site automation\n pratice e validar que o cadastro foi realizado com sucesso",
+    "description": "\r\nEu como usuario desejo me cadastrar no site automation\r\n pratice e validar que o cadastro foi realizado com sucesso",
     "id": "realizar-um-cadastro-no-site-automation-pratice",
     "keyword": "Funcionalidade",
     "uri": "ct01cadastro.feature"

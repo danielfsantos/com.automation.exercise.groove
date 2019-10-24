@@ -8,4 +8,6 @@ Funcionalidade:Realizar um cadastro no site automation pratice
 
   Cenario: Realizar um cadastro valido 
   Dado que eu esteja na home 
-  Quando clicar em se cadastrar
+  Quando clicar em se Sign in
+  E inserir um email Valido
+  Então clicar no botão create an account
