@@ -11,3 +11,4 @@ Funcionalidade:Realizar um cadastro no site automation pratice
   Quando clicar em se Sign in
   E inserir um email Valido
   Então clicar no botão create an account
+  E preencher os campos de cadastro

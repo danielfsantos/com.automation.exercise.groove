@@ -19,12 +19,17 @@ public class TesteStep extends Ct01RegistryPage {
 	}
 
 	@Quando("^inserir um email Valido$")
-	public void inserir_um_email_Valido() throws Throwable {
+	public void insertValidEmail() throws Throwable {
 			insertEmail();
 	}
 
 	@Então("^clicar no botão create an account$")
-	public void clicar_no_botão_create_an_account() throws Throwable {
+	public void openCreateAnAccountPage() throws Throwable {
 			clickBtnCreateAccount();
+	}
+	
+	@Então("^preencher os campos de cadastro$")
+	public void fillRegistrationFields() throws Throwable {
+	  checkRadioMr();
 	}
 }
