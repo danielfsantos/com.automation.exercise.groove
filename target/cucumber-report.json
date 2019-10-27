@@ -12,7 +12,7 @@
         "before": [
           {
             "result": {
-              "duration": 226735,
+              "duration": 219736,
               "status": "passed"
             },
             "match": {
@@ -27,7 +27,7 @@
         "after": [
           {
             "result": {
-              "duration": 27526,
+              "duration": 20527,
               "status": "passed"
             },
             "match": {
@@ -40,7 +40,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10038175842,
+              "duration": 12354902971,
               "status": "passed"
             },
             "line": 10,
@@ -52,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 1488136559,
+              "duration": 2001277830,
               "status": "passed"
             },
             "line": 11,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 244021393,
+              "duration": 442761663,
               "status": "passed"
             },
             "line": 12,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 268076713,
+              "duration": 191663448,
               "status": "passed"
             },
             "line": 13,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 6510905651,
+              "duration": 5305330687,
               "status": "passed"
             },
             "line": 14,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 1496265878,
+              "duration": 1460821115,
               "status": "passed"
             },
             "line": 15,
@@ -112,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 130938718,
+              "duration": 124641004,
               "status": "passed"
             },
             "line": 16,
@@ -144,7 +144,7 @@
         "before": [
           {
             "result": {
-              "duration": 55051,
+              "duration": 38256,
               "status": "passed"
             },
             "match": {
@@ -153,13 +153,13 @@
           }
         ],
         "line": 5,
-        "name": "testar api m",
+        "name": "realizar uma requisição e lista os titulos dos filmes",
         "description": "",
-        "id": "testar-api;testar-api-m",
+        "id": "realizar-uma-requisição-get-para-a-api-swapi;realizar-uma-requisição-e-lista-os-titulos-dos-filmes",
         "after": [
           {
             "result": {
-              "duration": 21461,
+              "duration": 25193,
               "status": "passed"
             },
             "match": {
@@ -172,7 +172,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3503173350,
+              "duration": 3635857831,
               "status": "passed"
             },
             "line": 6,
@@ -184,7 +184,7 @@
           },
           {
             "result": {
-              "duration": 1592109266,
+              "duration": 1748964299,
               "status": "passed"
             },
             "line": 7,
@@ -197,9 +197,9 @@
         ]
       }
     ],
-    "name": "testar Api",
+    "name": "Realizar uma requisição get para a api swapi",
     "description": "",
-    "id": "testar-api",
+    "id": "realizar-uma-requisição-get-para-a-api-swapi",
     "keyword": "Funcionalidade",
     "uri": "ct02api.feature"
   }

@@ -1,8 +1,6 @@
 package com.automation.exercise.com.automation.exercise.groove.Steps;
 
 import com.automation.exercise.com.automation.exercise.groove.PageObjects.Ct01RegistryPage;
-import com.automation.exercise.com.automation.exercise.groove.utils.Utility;
-
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;
