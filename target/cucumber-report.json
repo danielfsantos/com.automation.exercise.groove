@@ -12,7 +12,7 @@
         "before": [
           {
             "result": {
-              "duration": 275720,
+              "duration": 195477,
               "status": "passed"
             },
             "match": {
@@ -27,7 +27,7 @@
         "after": [
           {
             "result": {
-              "duration": 19128,
+              "duration": 34990,
               "status": "passed"
             },
             "match": {
@@ -40,7 +40,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7784450583,
+              "duration": 3584748325,
               "status": "passed"
             },
             "line": 7,
@@ -52,13 +52,13 @@
           },
           {
             "result": {
-              "duration": 27526,
+              "duration": 1616431908,
               "status": "passed"
             },
             "line": 8,
             "name": "a api retornara o resultado dos filmes",
             "match": {
-              "location": "Ct02ApiFilmsStep.a_api_retornara_o_resultado_dos_filmes()"
+              "location": "Ct02ApiFilmsStep.returnNames()"
             },
             "keyword": "Então "
           }

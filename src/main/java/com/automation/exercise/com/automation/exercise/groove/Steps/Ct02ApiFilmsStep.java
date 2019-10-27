@@ -14,7 +14,7 @@ public class Ct02ApiFilmsStep extends Ct02ApiFilmsPage{
 	
 	
 	@Então("^a api retornara o resultado dos filmes$")
-	public void a_api_retornara_o_resultado_dos_filmes() throws Throwable {
-	   
+	public void returnNames() throws Throwable {
+		resultFilmTitles();
 	}
 }
