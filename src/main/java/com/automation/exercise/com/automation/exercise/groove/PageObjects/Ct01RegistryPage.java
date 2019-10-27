@@ -141,8 +141,7 @@ public class Ct01RegistryPage {
 	}
 	
 	public void quitPage() {
-		driver.quit();
-		
+		driver.close();
 	}
 	
 }
