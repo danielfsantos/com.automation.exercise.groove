@@ -12,7 +12,7 @@
         "before": [
           {
             "result": {
-              "duration": 159087,
+              "duration": 161420,
               "status": "passed"
             },
             "match": {
@@ -29,7 +29,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10698065665,
+              "duration": 10166474455,
               "status": "passed"
             },
             "line": 10,
@@ -41,7 +41,7 @@
           },
           {
             "result": {
-              "duration": 1739752160,
+              "duration": 2279085933,
               "status": "passed"
             },
             "line": 11,
@@ -53,7 +53,7 @@
           },
           {
             "result": {
-              "duration": 310065986,
+              "duration": 272644993,
               "status": "passed"
             },
             "line": 12,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 282922225,
+              "duration": 245357541,
               "status": "passed"
             },
             "line": 13,
@@ -73,11 +73,11 @@
             "match": {
               "location": "TesteStep.openCreateAnAccountPage()"
             },
-            "keyword": "Então "
+            "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 3459787280,
+              "duration": 4830518746,
               "status": "passed"
             },
             "line": 14,
@@ -86,6 +86,30 @@
               "location": "TesteStep.fillRegistrationFields()"
             },
             "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1909443353,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicar no botão Register",
+            "match": {
+              "location": "TesteStep.clickRegister()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 83114529,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "a tela My Account sera apresentada",
+            "match": {
+              "location": "TesteStep.verifyWelcomeMyccount()"
+            },
+            "keyword": "Então "
           }
         ]
       }

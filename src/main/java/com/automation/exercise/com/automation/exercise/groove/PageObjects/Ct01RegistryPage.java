@@ -4,10 +4,12 @@ import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import com.automation.exercise.com.automation.exercise.groove.utils.Utility;
 import com.github.javafaker.Faker;
@@ -31,6 +33,15 @@ public class Ct01RegistryPage {
 	public final String SelectDays = "//select[@id='days']";
 	public final String selectMonth = "//select[@id='months']";
 	public final String selectYear = "//select[@id='years']";
+	public final String inputAdress = "//input[@id='address1']";
+	public final String inputCity = "//input[@id='city']";
+	public final String selectState = "//select[@id='id_state']";
+	public final String inputZipCode = "//input[@id='postcode']";
+	public final String selectCountry = "//select[@id='id_country']";
+	public final String inputMobilePhone = "//input[@id='phone_mobile']";
+	public final String btnRegister = "//button[@id='submitAccount']";
+	public final String inputAlias = "//input[@id='alias']";
+	public final String welcomeText = "//p[@class='info-account']";
 	
 
 	public void getPage() {
@@ -74,17 +85,64 @@ public class Ct01RegistryPage {
 
 	public void selectDaysValue() {
 		Select drpDay = new Select(driver.findElement(By.xpath(SelectDays)));
-		drpDay.selectByValue(String.valueOf(rand.nextInt(31)));	
+		drpDay.selectByValue(String.valueOf(faker.number().numberBetween(1, 31)));	
 	}
 	
 	public void selectMonthValue() {
 		Select drpMonth = new Select(driver.findElement(By.xpath(selectMonth)));
-		drpMonth.selectByValue(String.valueOf(rand.nextInt(12)));
+		drpMonth.selectByValue(String.valueOf(faker.number().numberBetween(1, 12)));
 	}
 	
 	public void selectYearValue() {
 		Select drpYear = new Select(driver.findElement(By.xpath(selectYear)));
-		drpYear.selectByValue("1994");
+		drpYear.selectByValue(String.valueOf("1994"));
+	}
+	
+	public void insertAdress() {
+		driver.findElement(By.xpath(inputAdress)).sendKeys(faker.address().streetName());
+	}
+	
+	public void insertCity() {
+		driver.findElement(By.xpath(inputCity)).sendKeys(faker.address().city());
+	}
+	
+	public void selectState() {
+		Select drpState = new Select(driver.findElement(By.xpath(selectState)));
+		drpState.selectByValue(String.valueOf(rand.nextInt(50)));
+	}
+	
+	public void insertZipCode() {
+		driver.findElement(By.xpath(inputZipCode)).sendKeys(String.valueOf(faker.number().numberBetween(10000, 50000)));
+	}
+	
+	public void selectCountry() {
+		Select drpCountry = new Select(driver.findElement(By.xpath(selectCountry)));
+		drpCountry.selectByValue("21");
+		
+	}
+	
+	public void insertMobilePhone() {
+		driver.findElement(By.xpath(inputMobilePhone)).sendKeys(faker.phoneNumber().cellPhone());
+	}
+	
+	public void insertAlias() {
+		driver.findElement(By.xpath(inputAlias)).sendKeys(faker.gameOfThrones().house());
+	}
+	
+	
+	public void clickBtnRegister() {
+		driver.findElement(By.xpath(btnRegister)).click();
+	}
+		
+	public void welcomeTextHasVisible() {
+		WebElement welcome = driver.findElement(By.xpath(welcomeText));	
+		Assert.assertTrue(welcome.isDisplayed());
+		Assert.assertEquals(welcome.getText(), "Welcome to your account. Here you can manage all of your personal information and orders.");
+	}
+	
+	public void quitPage() {
+		driver.quit();
+		
 	}
 	
 }

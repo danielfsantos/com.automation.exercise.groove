@@ -40,5 +40,23 @@ public class TesteStep extends Ct01RegistryPage {
 	  selectDaysValue();
 	  selectMonthValue();
 	  selectYearValue();
+	  insertAdress();
+	  insertCity();
+	  selectState();
+	  insertZipCode();
+	  selectCountry();
+	  insertMobilePhone();
+	  insertAlias();
+	  
+	}
+	
+	@Quando("^clicar no botão Register$")
+	public void clickRegister() throws Throwable {
+		clickBtnRegister();  
+	}
+
+	@Então("^a tela My Account sera apresentada$")
+	public void verifyWelcomeMyccount() throws Throwable {
+		welcomeTextHasVisible(); 
 	}
 }
