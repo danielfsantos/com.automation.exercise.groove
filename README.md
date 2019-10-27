@@ -17,3 +17,7 @@ https://marketplace.eclipse.org/content/cucumber-eclipse-plugin
 
 Maven:
 https://maven.apache.org/download.cgi
+
+para executar a automação é necessario que as dependencias do maven sejam instaladas então dentro da pasta raiz do projetos no cmd basta executar o comando: mvn clean install
+
+depois executar a classe testRunner clicando com o botão direito do mouse run as> TestNg Test
