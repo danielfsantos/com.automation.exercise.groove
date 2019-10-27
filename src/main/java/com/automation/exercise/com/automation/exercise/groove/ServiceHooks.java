@@ -7,18 +7,9 @@ import cucumber.api.java.Before;
  
 
 public class ServiceHooks {
-	
-	
+		
     @Before
     public void initializeTest(){
     	System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
     }
-    
-    
-    
-    @After
-    public void quitBrowser() {
-    	
-    }
- 
 }
