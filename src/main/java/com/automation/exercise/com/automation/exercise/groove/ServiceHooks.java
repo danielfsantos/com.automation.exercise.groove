@@ -9,8 +9,4 @@ public class ServiceHooks {
     public void initializeTest(){
     	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mãe\\Desktop\\com.automation.exercise.groove\\driver\\chromedriver.exe");
     }
- 
-    
-   
-    
 }
