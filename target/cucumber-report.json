@@ -12,7 +12,7 @@
         "before": [
           {
             "result": {
-              "duration": 219736,
+              "duration": 264057,
               "status": "passed"
             },
             "match": {
@@ -24,101 +24,90 @@
         "name": "Realizar um cadastro valido",
         "description": "",
         "id": "realizar-um-cadastro-no-site-automation-pratice;realizar-um-cadastro-valido",
-        "after": [
-          {
-            "result": {
-              "duration": 20527,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ServiceHooks.quitBrowser()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Cenario",
         "steps": [
           {
             "result": {
-              "duration": 12354902971,
+              "duration": 9826579817,
               "status": "passed"
             },
             "line": 10,
             "name": "que eu esteja na home",
             "match": {
-              "location": "TesteStep.homePage()"
+              "location": "Ct01RegistryStep.homePage()"
             },
             "keyword": "Dado "
           },
           {
             "result": {
-              "duration": 2001277830,
+              "duration": 1434001594,
               "status": "passed"
             },
             "line": 11,
             "name": "clicar em se Sign in",
             "match": {
-              "location": "TesteStep.openSignIn()"
+              "location": "Ct01RegistryStep.openSignIn()"
             },
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 442761663,
+              "duration": 247693466,
               "status": "passed"
             },
             "line": 12,
             "name": "inserir um email Valido",
             "match": {
-              "location": "TesteStep.insertValidEmail()"
+              "location": "Ct01RegistryStep.insertValidEmail()"
             },
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 191663448,
+              "duration": 260002911,
               "status": "passed"
             },
             "line": 13,
             "name": "clicar no botão create an account",
             "match": {
-              "location": "TesteStep.openCreateAnAccountPage()"
+              "location": "Ct01RegistryStep.openCreateAnAccountPage()"
             },
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 5305330687,
+              "duration": 4851069478,
               "status": "passed"
             },
             "line": 14,
             "name": "preencher os campos de cadastro",
             "match": {
-              "location": "TesteStep.fillRegistrationFields()"
+              "location": "Ct01RegistryStep.fillRegistrationFields()"
             },
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 1460821115,
+              "duration": 1597675458,
               "status": "passed"
             },
             "line": 15,
             "name": "clicar no botão Register",
             "match": {
-              "location": "TesteStep.clickRegister()"
+              "location": "Ct01RegistryStep.clickRegister()"
             },
             "keyword": "E "
           },
           {
             "result": {
-              "duration": 124641004,
+              "duration": 138012742,
               "status": "passed"
             },
             "line": 16,
             "name": "a tela My Account sera apresentada",
             "match": {
-              "location": "TesteStep.verifyWelcomeMyccount()"
+              "location": "Ct01RegistryStep.verifyWelcomeMyccount()"
             },
             "keyword": "Então "
           }
@@ -144,7 +133,7 @@
         "before": [
           {
             "result": {
-              "duration": 38256,
+              "duration": 43855,
               "status": "passed"
             },
             "match": {
@@ -156,23 +145,12 @@
         "name": "realizar uma requisição e lista os titulos dos filmes",
         "description": "",
         "id": "realizar-uma-requisição-get-para-a-api-swapi;realizar-uma-requisição-e-lista-os-titulos-dos-filmes",
-        "after": [
-          {
-            "result": {
-              "duration": 25193,
-              "status": "passed"
-            },
-            "match": {
-              "location": "ServiceHooks.quitBrowser()"
-            }
-          }
-        ],
         "type": "scenario",
         "keyword": "Cenario",
         "steps": [
           {
             "result": {
-              "duration": 3635857831,
+              "duration": 3742519160,
               "status": "passed"
             },
             "line": 6,
@@ -184,7 +162,7 @@
           },
           {
             "result": {
-              "duration": 1748964299,
+              "duration": 1502960612,
               "status": "passed"
             },
             "line": 7,

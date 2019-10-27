@@ -5,7 +5,7 @@ import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;
 
-public class TesteStep extends Ct01RegistryPage {
+public class Ct01RegistryStep extends Ct01RegistryPage {
 
 	
 	@Dado("^que eu esteja na home$")
@@ -44,8 +44,6 @@ public class TesteStep extends Ct01RegistryPage {
 	  insertZipCode();
 	  selectCountry();
 	  insertMobilePhone();
-	  insertAlias();
-	  
 	}
 	
 	@Quando("^clicar no botão Register$")
