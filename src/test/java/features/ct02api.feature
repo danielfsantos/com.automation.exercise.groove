@@ -1,8 +1,7 @@
 #language:pt
+Funcionalidade:Realizar uma requisição get para a api swapi 
 
-Funcionalidade:testar Api
-
-@api
-Cenario: testar api m
-Dado o endereço da api
-Então a api retornara o resultado dos filmes 
+  
+  Cenario: realizar uma requisição e lista os titulos dos filmes
+    Dado o endereço da api
+    Então a api retornara o resultado dos filmes

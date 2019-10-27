@@ -6,13 +6,13 @@
         "value": "#language:pt"
       }
     ],
-    "line": 3,
+    "line": 4,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 195477,
+              "duration": 226735,
               "status": "passed"
             },
             "match": {
@@ -20,14 +20,14 @@
             }
           }
         ],
-        "line": 6,
-        "name": "testar api m",
+        "line": 9,
+        "name": "Realizar um cadastro valido",
         "description": "",
-        "id": "testar-api;testar-api-m",
+        "id": "realizar-um-cadastro-no-site-automation-pratice;realizar-um-cadastro-valido",
         "after": [
           {
             "result": {
-              "duration": 34990,
+              "duration": 27526,
               "status": "passed"
             },
             "match": {
@@ -40,10 +40,142 @@
         "steps": [
           {
             "result": {
-              "duration": 3584748325,
+              "duration": 10038175842,
               "status": "passed"
             },
-            "line": 7,
+            "line": 10,
+            "name": "que eu esteja na home",
+            "match": {
+              "location": "TesteStep.homePage()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1488136559,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clicar em se Sign in",
+            "match": {
+              "location": "TesteStep.openSignIn()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 244021393,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "inserir um email Valido",
+            "match": {
+              "location": "TesteStep.insertValidEmail()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 268076713,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicar no botão create an account",
+            "match": {
+              "location": "TesteStep.openCreateAnAccountPage()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 6510905651,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "preencher os campos de cadastro",
+            "match": {
+              "location": "TesteStep.fillRegistrationFields()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1496265878,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicar no botão Register",
+            "match": {
+              "location": "TesteStep.clickRegister()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 130938718,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "a tela My Account sera apresentada",
+            "match": {
+              "location": "TesteStep.verifyWelcomeMyccount()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Realizar um cadastro no site automation pratice",
+    "description": "\r\nEu como usuario desejo me cadastrar no site automation\r\n pratice e validar que o cadastro foi realizado com sucesso",
+    "id": "realizar-um-cadastro-no-site-automation-pratice",
+    "keyword": "Funcionalidade",
+    "uri": "ct01cadastro.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language:pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 55051,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "testar api m",
+        "description": "",
+        "id": "testar-api;testar-api-m",
+        "after": [
+          {
+            "result": {
+              "duration": 21461,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3503173350,
+              "status": "passed"
+            },
+            "line": 6,
             "name": "o endereço da api",
             "match": {
               "location": "Ct02ApiFilmsStep.getUrlApi()"
@@ -52,21 +184,15 @@
           },
           {
             "result": {
-              "duration": 1616431908,
+              "duration": 1592109266,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "a api retornara o resultado dos filmes",
             "match": {
               "location": "Ct02ApiFilmsStep.returnNames()"
             },
             "keyword": "Então "
-          }
-        ],
-        "tags": [
-          {
-            "line": 5,
-            "name": "@api"
           }
         ]
       }
